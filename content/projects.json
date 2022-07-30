@@ -13,7 +13,7 @@
   },
   {
     "name": "Gote",
-    "description": "A Polls/Vote app made using T3 stack",
+    "description": "A Polls/Vote app made using T3 stack. (DB might be down due to inactivity)",
     "link": "https://gote.thgeeko.tech",
     "tech": ["NextJS", "tRPC", "NextAuth", "TailwindCSS"]
   },
