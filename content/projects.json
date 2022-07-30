@@ -6,9 +6,9 @@
     "tech": ["Vulkan API", "ImGui", "CMake", "C++"]
   },
   {
-    "name": "Gideo",
+    "name": "Gideo (WIP)",
     "description": "A Video/Text chat app made using webRTC, Pusher, T3 stack",
-    "link": "https://gideo.thgeeko.tech",
+    "link": "https://github.com/thegeeko/gideo",
     "tech": ["NextJS", "tRPC", "Pusher", "NextAuth", "TailwindCSS"]
   },
   {
