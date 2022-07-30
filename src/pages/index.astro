@@ -1,0 +1,33 @@
+---
+import BasicLayout from "../layouts/BasicLayout.astro";
+import NavBar from "../components/NavBar.astro";
+---
+
+<BasicLayout title="Abdelhadi">
+	<div class="flex flex-col container m-auto h-screen">
+		<div class="h-2/6 py-6 px-4">
+			<NavBar />
+		</div>
+
+		<div class="h-4/6 text-center">
+			<div>
+				<h1 class="text-5xl font-bold">Abdelhadi Mohammed Salih</h1>
+			</div>
+			<p class="text-xl mt-4">A very curious passionate developer, loves understand how things works and why they're the
+				way
+				they're.</p>
+
+			<a href="/projects">
+				<button
+					class="bg-black drop-shadow-2xl hover:shadow-none text-white px-6 py-3 rounded-md font-2xl font-bold mt-20">
+					Check out my Projects 👉
+				</button>
+			</a>
+		</div>
+
+		<div class="absolute bottom-4 left-0 right-0 text-center"> bsbsbsbsbs here is my discord: <span
+				class="font-bold">thegeeko#0001</span>
+		</div>
+
+	</div>
+</BasicLayout>

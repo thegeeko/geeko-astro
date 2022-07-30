@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Geg",
+    "description": "A Game engine written in C++ using Vulkan API, The biggest personal project I've worked on so far. (currently in pause unfortunately)",
+    "link": "https://github.com/thegeeko/geg",
+    "tech": ["Vulkan API", "ImGui", "CMake", "C++"]
+  },
+  {
+    "name": "Gideo",
+    "description": "A Video/Text chat app made using webRTC, Pusher, T3 stack",
+    "link": "https://gideo.thgeeko.tech",
+    "tech": ["NextJS", "tRPC", "Pusher", "NextAuth", "TailwindCSS"]
+  },
+  {
+    "name": "Gote",
+    "description": "A Polls/Vote app made using T3 stack",
+    "link": "https://gote.thgeeko.tech",
+    "tech": ["NextJS", "tRPC", "NextAuth", "TailwindCSS"]
+  },
+  {
+    "name": "This website",
+    "description": "A Portifolio website made using Astro",
+    "link": "https://thgeeko.tech",
+    "tech": ["Astro", "TailwindCSS"]
+  },
+  {
+    "name": "Pent",
+    "description": "A Small game done in the weekend for the GGJ 2022 in collaboration with my friends",
+    "link": "https://github.com/team-gopy/Pent",
+    "tech": ["Unity Engine", "C#"]
+  },
+  {
+    "name": "Rusty Bird",
+    "description": "A Small Game to explore Rust",
+    "link": "https://github.com/thegeeko/rusty-bird",
+    "tech": ["Rust"]
+  },
+  {
+    "name": "Woke and Shoot",
+    "description": "A Game made by my friend and I helped him to explore Unreal Engine",
+    "link": "https://github.com/ahmedhamad-okkio/WokeAndShoot",
+    "tech": ["Unreal Engine", "C++"]
+  },
+  {
+    "name": "Gray",
+    "description": "A Cpu based RayTracer written in C++ with the help of ImGui and OpenGL",
+    "link": "https://github.com/thegeeko/gray",
+    "tech": ["C++", "ImGui", "OpenGL"]
+  }
+]
