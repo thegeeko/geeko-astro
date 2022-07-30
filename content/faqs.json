@@ -1,0 +1,46 @@
+[
+  {
+    "q": "This style is cool WTF!!",
+    "a": "IKR!! it's stolen tho :D from The Pudding(AI music taste thingy)"
+  },
+  {
+    "q": "Why No Dark mode ?",
+    "a": "They don't have dark mode in their app :D"
+  },
+  {
+    "q": "Fav Editor ?",
+    "a": "Currently using vscdoe, I'm planning to rewrite my nvim config soon tho"
+  },
+  {
+    "q": "Fav Album ?",
+    "a": "Gotta be \"The Thrill of it All\" by Sam Smith"
+  },
+  {
+    "q": "Tabs vs Spaces ?",
+    "a": "IDK I Just press tabs idk about the rest"
+  },
+  {
+    "q": "Most played game ?",
+    "a": "Valorant somewhere around 1K hours, my peek is Gold 3 tho ;-;"
+  },
+  {
+    "q": "Languages ?",
+    "a": "Arabic(native), English"
+  },
+  {
+    "q": "OS ?",
+    "a": "Linux is my main (arch btw hahaha), MacOS differently usable, Windows Eww"
+  },
+  {
+    "q": "DE or WM ?",
+    "a": "currently KDE, but used Sway, i3, qtile"
+  },
+  {
+    "q": "Terminal Emulator ?",
+    "a": "Kitty"
+  },
+  {
+    "q": "Shell ?",
+    "a": "Fish"
+  }
+]

@@ -7,7 +7,7 @@ import projects from "../../../content/projects.json";
 ---
 
 <BasicLayout title="Abdelhadi | Projects">
-	<div class="flex flex-col container m-auto h-screen">
+	<div class="flex flex-col container m-auto justify-between">
 		<div class="h-1/6 py-6 px-4">
 			<NavBar active="projects" />
 		</div>
@@ -18,14 +18,14 @@ import projects from "../../../content/projects.json";
 
 		<div class="py-10">
 			<div
-				class="h-5/6 text-xl grid md:grid-cols-2 lg:grid-cols-3 gap-10 drop-shadow-lg justify-items-center md:justify-items-start">
+				class="text-xl grid md:grid-cols-2 lg:grid-cols-3 gap-10 drop-shadow-lg justify-items-center md:justify-items-start">
 				{ projects.map(p => (
 				<div class="bg-black text-white py-5 px-6 rounded-md w-10/12 md:w-full flex flex-col justify-between">
 					<div class="flex justify-between">
 						<div class="text-3xl font-bold"> {p.name} </div>
 						<div class="my-auto hover:underline underline-offset-4 text-sm"><a href={p.link}> visit 👉 </a></div>
 					</div>
-					<div class="text-base mt-3">{p.description}</div>
+					<div class="text-base mt-3">{p.description}.</div>
 					<div class="flex gap-3 text-sm font-bold mt-8 flex-wrap">
 						{ p.tech.map(t => (
 						<div class="bg-white rounded-md text-black px-3">{t}</div>

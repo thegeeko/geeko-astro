@@ -3,8 +3,7 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
-      colors: {
-      },
+      colors: {},
       fontFamily: {
         alegreya: ["Alegreya", "serif"],
       },

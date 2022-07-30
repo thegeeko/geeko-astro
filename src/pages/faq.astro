@@ -1,0 +1,32 @@
+---
+import BasicLayout from "../layouts/BasicLayout.astro";
+import NavBar from "../components/NavBar.astro";
+
+import questions from "../../content/faqs.json"
+---
+
+<BasicLayout title="Abdelhadi">
+	<div class="flex flex-col container m-auto justify-between">
+		<div class="h-1/6 py-6 px-4">
+			<NavBar active="faq" />
+		</div>
+
+		<div class="text-3xl text-center my-14 mb-30">
+			Questions you might have 🐣.
+		</div>
+
+		<div class="px-4 grid md:grid-cols-2">
+			{ questions.map(q => (
+			<div class="mb-6 w-10/12 md:w-8/12 m-auto">
+				<div class="text-2xl mb-2 font-bold">
+					{ q.q }
+				</div>
+				<div class="text-xl">
+					{ q.a}
+				</div>
+			</div>
+			)) }
+		</div>
+
+	</div>
+</BasicLayout>
