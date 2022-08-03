@@ -30,13 +30,13 @@
   {
     "name": "Gote",
     "description": "A Polls/Vote app made using T3 stack. (DB might be down due to inactivity)",
-    "link": "https://gote.thgeeko.tech",
+    "link": "https://gote.thegeeko.tech",
     "tech": ["NextJS", "tRPC", "NextAuth", "TailwindCSS"]
   },
   {
     "name": "This website",
     "description": "A Portifolio website made using Astro",
-    "link": "https://thgeeko.me",
+    "link": "https://thegeeko.me",
     "tech": ["Astro", "TailwindCSS"]
   },
   {
