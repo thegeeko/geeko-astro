@@ -6,10 +6,26 @@
     "tech": ["Vulkan API", "ImGui", "CMake", "C++"]
   },
   {
+    "name": "GSpace (WIP)",
+    "description": "A Twitter space clone using T3 stack and fastify built in monorepo to explore the CI/CD workflow in a monorepo",
+    "link": "https://github.com/thegeeko/gspace",
+    "tech": [
+      "NextJS",
+      "tRPC",
+      "Pusher",
+      "WebRTC",
+      "NextAuth",
+      "TailwindCSS",
+      "Fastify",
+      "Docker",
+      "Github Actions"
+    ]
+  },
+  {
     "name": "Gideo (WIP)",
     "description": "A Video/Text chat app made using webRTC, Pusher, T3 stack",
     "link": "https://github.com/thegeeko/gideo",
-    "tech": ["NextJS", "tRPC", "Pusher", "NextAuth", "TailwindCSS"]
+    "tech": ["NextJS", "tRPC", "Pusher", "NextAuth", "TailwindCSS", "WebRTC"]
   },
   {
     "name": "Gote",

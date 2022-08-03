@@ -23,7 +23,8 @@ import projects from "../../../content/projects.json";
 				<div class="bg-black text-white py-5 px-6 rounded-md w-10/12 md:w-full flex flex-col justify-between">
 					<div class="flex justify-between">
 						<div class="text-3xl font-bold"> {p.name} </div>
-						<div class="my-auto hover:underline underline-offset-4 text-sm"><a href={p.link}> visit 👉 </a></div>
+						<div class="my-auto hover:underline underline-offset-4 text-sm"><a target="_blank" href={p.link}> visit 👉
+							</a></div>
 					</div>
 					<div class="text-base mt-3">{p.description}.</div>
 					<div class="flex gap-3 text-sm font-bold mt-8 flex-wrap">
